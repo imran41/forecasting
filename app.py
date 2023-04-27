@@ -10,7 +10,7 @@ import pickle
 from statsmodels.tsa.arima.model import ARIMA
 
 
-#pickled_model_1 = pickle.load(open("D:\Laptop\Project 2\model_OLS.pkl", 'rb'))
+#pickled_model_1 = pickle.load(open("model_OLS.pkl", 'rb'))
 
 ###################################################################################
 st.title('Inventory Optimization of Steel Rods | Forecasting')
@@ -58,7 +58,7 @@ if uploaded_file is not None:
 
     #st.dataframe(data)
 
-    pickled_model_1 = pickle.load(open("D:\Laptop\Project 2\model_OLS.pkl", 'rb'))
+    pickled_model_1 = pickle.load(open("model_OLS.pkl", 'rb'))
     pred_OLS = pickled_model_1.predict(data)
     #st.dataframe(pred_OLS)
 #######################################################################################

@@ -1,16 +1,8 @@
-Flask==2.2.3
-Flask-Compress==1.13
-flask-ngrok==0.0.25
-gitdb==4.0.10
-GitPython==3.1.31
 matplotlib==3.6.3
 matplotlib-inline==0.1.6
 numpy==1.23.5
 pandas==1.5.3
-scikit-learn==1.2.1
 scipy==1.9.3
 seaborn==0.12.2
-sklearn==0.0.post1
 statsmodels==0.13.5
 streamlit==1.21.0
-streamlit-chat==0.0.2.2
